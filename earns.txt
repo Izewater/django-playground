@@ -34,3 +34,7 @@ python manage.py makemigrations nameOfApp
 
 then it will automatically migrate the models...
 
+ok.... ahhh
+creating url for django app
+then pointing the urls of app to urls of django project
+
