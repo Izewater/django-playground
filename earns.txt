@@ -1,0 +1,36 @@
+so.....
+first start a python shell environment for a project by running
+pipenv shell
+
+then
+install django in pipenv shelll by running
+pipenv install django
+
+then starting a  django project by 
+django-admin startproject DesireNameOfProject
+
+inside there's a manage.py file that helps with the interaction to django like RUNNING THE SERVER, STARTING AN APP, DATABASE MIGRATION
+
+RUNNING THE DEV SERVER  
+python manage.py runserver <optional port>
+
+DEFAULT MIGRATION
+python manage.py migrate
+
+STARTING A DJANGO APP INSIDE A DJANGO project
+python manage.py startproject DesireNameOfProject
+
+MVC CONCEPT
+Creating a class models something like database object meh, DataBase Models...
+
+and thenn
+registering the app in settings.py by 'nameOfApp.apps.nameOfAppConfig'
+
+if we already had model..
+we can create the database tables for it by running the migrate function
+
+MAKE DATABASE MIGRATION FOR EVERY MODELS
+python manage.py makemigrations nameOfApp
+
+then it will automatically migrate the models...
+
