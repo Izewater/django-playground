@@ -3,12 +3,12 @@ from django.db import models
 # Create your models here.
 
 class Question(models.Model):
-    question_test = models.CharField(max_length=200)
+    question_text = models.CharField(max_length=200)
     pub_date = models.DateTimeField('date published')
 
     #it looks like a cast question_field to string
     def __str__(self):
-        return self.question_test
+        return self.question_text
 
 
 class Choice(models.Model):
